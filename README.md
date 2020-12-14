@@ -38,6 +38,6 @@ The above can be then calculated for the number of reactions on the 96-well plat
 
 Thermocycler protocol:
 
-   98C               ( 98C  ----> 60C   ----> 72C )          ( 98C  ----> 52.4C   ------->       72C      )         (72C   ---->  10C)
-   30 sec           10 sec      20 sec       60 sec            10 sec      20 sec            1 min 30 sec            10 min        ∞
-   1 cycle                     8 cycles                                  25 cycles                                         1 cycle
+    98C               ( 98C  ----> 60C   ----> 72C )          ( 98C  ----> 52.4C   ------->       72C      )         (72C   ---->  10C)
+    30 sec           10 sec      20 sec       60 sec            10 sec      20 sec            1 min 30 sec            10 min        ∞
+    1 cycle                     8 cycles                                  25 cycles                                         1 cycle
