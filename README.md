@@ -2,9 +2,9 @@
 
 # Materials Need:
 
-    Lyticase (from Sigma)
-    TE
-    PCR buffers, primers, polymerase, etc.
+ - Lyticase (from Sigma)
+ - TE 
+ - PCR buffers, primers, polymerase, etc.
 
 # Procedure:
 
