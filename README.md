@@ -34,7 +34,7 @@ For PCR, the user should bring two master mixes: 1 with the primers (can be kept
   - REV Primer (AM238): 1 uL of 10x dilution
   - H2O: 8.92 uL
 
-The above can be then calculated for the number of reactions on the 96-well plate plus always prepare some spare to allow some space for handling errors. The robot would then add the first master mix at a given volume, pipette up and down, then add the second master mix, pipette up and down.The first buffer can contain the primers, DMSO, and H2O (so 13.4 uL to add to each well by a robot). The second master mix to be kept on ice and can contain 5x Phusion Buffer, dNTPs, and Phusion Polymerase (4.6 uL to add to each well by a robot).
+The above can be then calculated for the number of reactions on the 96-well plate plus always prepare some spare to allow some space for handling errors. The robot would then add the first master mix at a given volume, pipette up and down, then add the second master mix, pipette up and down. The first buffer can contain the primers, DMSO, and H2O (so 13.4 uL to add to each well by a robot). The second master mix to be kept on ice and can contain 5x Phusion Buffer, dNTPs, and Phusion Polymerase (4.6 uL to add to each well by a robot).
 
 # Thermocycler protocol:
 
