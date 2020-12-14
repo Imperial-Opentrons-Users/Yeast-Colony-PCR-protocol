@@ -1,15 +1,14 @@
 #this is the PCR lyticase lysis buffer part 
-#this is the PCR lyticase lysis buffer part 
 
 from opentrons import simulate
 metadata = {'apiLevel': '2.0'}
 protocol = simulate.get_protocol_api('2.0')
 
-#Labware
+#Labware required for the lysis buffer 
 plate = protocol.load_labware('corning_96_wellplate_360ul_flat', 1)
 tiprack_1 = protocol.load_labware('opentrons_96_tiprack_300ul', 2)
 
-#pipettes
+#pipettes required for the lysis buffer
 p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tiprack_1])
 protocol.max_speeds['Z'] = 10
 
@@ -20,8 +19,7 @@ p300.transfer(5, plate['B1'], plate['C1'])
 p300.transfer(55, plate['C1'], plate['D1'], touch_tip=True, blow_out=True, new_tip='always') 
 p300.pick_up_tip()
 
-
-#mix(repetitions, volume, location, rate)
+#mix the yeast colonies with the lyticase to break up cell wall(repetitions, volume, location, rate)
 p300.mix(5, 55, plate['D1'], 0.5)
 p300.return_tip()
 
