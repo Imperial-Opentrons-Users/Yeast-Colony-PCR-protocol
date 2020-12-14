@@ -4,9 +4,11 @@
 from opentrons import simulate
 metadata = {'apiLevel': '2.0'}
 protocol = simulate.get_protocol_api('2.0')
+
 #Labware
 plate = protocol.load_labware('corning_96_wellplate_360ul_flat', 1)
 tiprack_1 = protocol.load_labware('opentrons_96_tiprack_300ul', 2)
+
 #pipettes
 p300 = protocol.load_instrument('p300_single_gen2', 'right', tip_racks=[tiprack_1])
 protocol.max_speeds['Z'] = 10
@@ -46,7 +48,7 @@ return [_all_values[n] for n in names]
 
 import math
 
-# metadata
+#metadata
 metadata = {
 'protocolName': 'Complete PCR Workflow with Thermocycler',
 'author': 'Nick <protocols@opentrons.com>',
@@ -107,7 +109,7 @@ else:
 dna_plate = ctx.load_labware(
     'nest_96_wellplate_100ul_pcr_full_skirt', '5', 'DNA plate')
 
-  # reagent setup
+#reagent setup
 mm_tube = tuberack.wells()[0]
 num_cols = math.ceil(number_of_samples/8)
 
