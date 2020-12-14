@@ -6,7 +6,7 @@
  - TE 
  - PCR buffers, primers, polymerase, etc.
 
-# Procedure:
+# Procedure for Cell lysis prep for PCR reaction:
 
 The basic idea is breaking the cells with lyticase and heat, then doing PCR.
 
@@ -36,7 +36,7 @@ For PCR, the user should bring two master mixes: 1 with the primers (can be kept
 
 The above can be then calculated for the number of reactions on the 96-well plate plus always prepare some spare to allow some space for handling errors. The robot would then add the first master mix at a given volume, pipette up and down, then add the second master mix, pipette up and down.The first buffer can contain the primers, DMSO, and H2O (so 13.4 uL to add to each well by a robot). The second master mix to be kept on ice and can contain 5x Phusion Buffer, dNTPs, and Phusion Polymerase (4.6 uL to add to each well by a robot).
 
-Thermocycler protocol:
+# Thermocycler protocol:
 
     98C               ( 98C  ----> 60C   ----> 72C )          ( 98C  ----> 52.4C   ------->       72C      )         (72C   ---->  10C)
     30 sec           10 sec      20 sec       60 sec            10 sec      20 sec            1 min 30 sec            10 min        ∞
