@@ -10,12 +10,12 @@
 
 The basic idea is breaking the cells with lyticase and heat, then doing PCR.
 
-    Dilute stock of lyticase to 50 U/mL in TE.
-    Aliquot lyticase in 50uL quantities
-    Pick colonies (I use a pipette tip) and add to lyticase aliquots, pipette up and down or agitate to break up colony
-    Incubate at 37°C for 30 min
-    Incubate at 95°C for 10 min
-    Use as a template for PCR - e.g., 5uL of the cells for a 50uL PCR reaction or 2uL of the cells for a 20uL PCR reaction 
+  1. Dilute stock of lyticase to 50 U/mL in TE.
+  2. Aliquot lyticase in 50uL quantities
+  3. Pick colonies (I use a pipette tip) and add to lyticase aliquots, pipette up and down or agitate to break up colony
+  4. Incubate at 37°C for 30 min
+  5. Incubate at 95°C for 10 min
+  6. Use as a template for PCR - e.g., 5uL of the cells for a 50uL PCR reaction or 2uL of the cells for a 20uL PCR reaction 
 
 
 Prior to the experiment, each colony should be manually resuspended in 50 uL H20 by a user; do it in a 96-well plate. Then, the robot would add 5 uL of lyticase (need to calculate the concentration of stock that the user should bring so that the final concentration of lyticase is 2.5U per 55 uL of the cell suspension). Next, the robot can pipette this volume (55 uL) up and down 2-3 times in each well. Steps 4 and 5 involve incubations at different temperatures (see above). Finally, 2 uL / 5 uL (for 20 uL or 50 uL PCR reaction respectively) of the lysate from each well should be transferred into corresponding wells of a new empty 96 well plate for PCR.
