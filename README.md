@@ -1,12 +1,12 @@
-# Yeast-Colony-PCR-protocol
+# Yeast Colony PCR protocol
 
-Materials Need:
+# Materials Need:
 
     Lyticase (from Sigma)
     TE
     PCR buffers, primers, polymerase, etc.
 
-Procedure:
+# Procedure:
 
 The basic idea is breaking the cells with lyticase and heat, then doing PCR.
 
@@ -37,8 +37,8 @@ Below are the PCR reaction mixes that I usually use for my Multiplex PCRs:
 
 The above can be then calculated for the number of reactions on the 96-well plate plus always prepare some spare to allow some space for handling errors. The robot would then add the first master mix at a given volume, pipette up and down, then add the second master mix, pipette up and down. I think the first buffer can contain the primers, DMSO, and H2O (so 13.4 uL to add to each well by a robot). The second master mix to be kept on ice and can contain 5x Phusion Buffer, dNTPs, and Phusion Polymerase (4.6 uL to add to each well by a robot).
 
-Below is the protocol for the thermocycler that I use:
+Thermocycler protocol:
 
-98C               ( 98C  ----> 60C   ----> 72C )          ( 98C  ----> 52.4C   ------->       72C      )         (72C   ---->  10C)
-30 sec           10 sec      20 sec       60 sec            10 sec      20 sec            1 min 30 sec            10 min        ∞
-1 cycle                            8 cycles                           25 cycles                                         1 cycle
+    98C               ( 98C  ----> 60C   ----> 72C )          ( 98C  ----> 52.4C   ------->       72C      )         (72C   ---->  10C)
+    30 sec           10 sec      20 sec       60 sec            10 sec      20 sec            1 min 30 sec            10 min        ∞
+    1 cycle                     8 cycles                                  25 cycles                                         1 cycle
